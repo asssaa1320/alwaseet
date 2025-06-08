@@ -1,0 +1,224 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "users",
+      "queryScope": "COLLECTION",
+      "fields": [{ "fieldPath": "email", "order": "ASCENDING" }]
+    },
+    {
+      "collectionGroup": "users",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "isVerified", "order": "ASCENDING" },
+        { "fieldPath": "createdAt", "order": "DESCENDING" }
+      ]
+    },
+    {
+      "collectionGroup": "users",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "isPremium", "order": "ASCENDING" },
+        { "fieldPath": "createdAt", "order": "DESCENDING" }
+      ]
+    },
+    {
+      "collectionGroup": "users",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "isPremium", "order": "ASCENDING" },
+        { "fieldPath": "premiumExpiryDate", "order": "ASCENDING" }
+      ]
+    },
+    {
+      "collectionGroup": "users",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "adsCount", "order": "DESCENDING" },
+        { "fieldPath": "createdAt", "order": "DESCENDING" }
+      ]
+    },
+    {
+      "collectionGroup": "users",
+      "queryScope": "COLLECTION",
+      "fields": [{ "fieldPath": "createdAt", "order": "DESCENDING" }]
+    },
+    {
+      "collectionGroup": "users",
+      "queryScope": "COLLECTION",
+      "fields": [{ "fieldPath": "name", "order": "ASCENDING" }, { "fieldPath": "createdAt", "order": "DESCENDING" }]
+    },
+    {
+      "collectionGroup": "news",
+      "queryScope": "COLLECTION",
+      "fields": [{ "fieldPath": "isActive", "order": "ASCENDING" }, { "fieldPath": "createdAt", "order": "DESCENDING" }]
+    },
+    {
+      "collectionGroup": "news",
+      "queryScope": "COLLECTION",
+      "fields": [{ "fieldPath": "author", "order": "ASCENDING" }, { "fieldPath": "createdAt", "order": "DESCENDING" }]
+    },
+    {
+      "collectionGroup": "news",
+      "queryScope": "COLLECTION",
+      "fields": [{ "fieldPath": "views", "order": "DESCENDING" }, { "fieldPath": "createdAt", "order": "DESCENDING" }]
+    },
+    {
+      "collectionGroup": "news",
+      "queryScope": "COLLECTION",
+      "fields": [{ "fieldPath": "isActive", "order": "ASCENDING" }, { "fieldPath": "views", "order": "DESCENDING" }]
+    },
+    {
+      "collectionGroup": "handToHand",
+      "queryScope": "COLLECTION",
+      "fields": [{ "fieldPath": "type", "order": "ASCENDING" }, { "fieldPath": "createdAt", "order": "DESCENDING" }]
+    },
+    {
+      "collectionGroup": "handToHand",
+      "queryScope": "COLLECTION",
+      "fields": [{ "fieldPath": "userId", "order": "ASCENDING" }, { "fieldPath": "createdAt", "order": "DESCENDING" }]
+    },
+    {
+      "collectionGroup": "handToHand",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "accountType", "order": "ASCENDING" },
+        { "fieldPath": "createdAt", "order": "DESCENDING" }
+      ]
+    },
+    {
+      "collectionGroup": "handToHand",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "type", "order": "ASCENDING" },
+        { "fieldPath": "accountType", "order": "ASCENDING" },
+        { "fieldPath": "createdAt", "order": "DESCENDING" }
+      ]
+    },
+    {
+      "collectionGroup": "handToHand",
+      "queryScope": "COLLECTION",
+      "fields": [{ "fieldPath": "price", "order": "ASCENDING" }, { "fieldPath": "type", "order": "ASCENDING" }]
+    },
+    {
+      "collectionGroup": "handToHand",
+      "queryScope": "COLLECTION",
+      "fields": [{ "fieldPath": "maxPrice", "order": "ASCENDING" }, { "fieldPath": "type", "order": "ASCENDING" }]
+    },
+    {
+      "collectionGroup": "handToHand",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "minFollowers", "order": "ASCENDING" },
+        { "fieldPath": "maxFollowers", "order": "ASCENDING" }
+      ]
+    },
+    {
+      "collectionGroup": "handToHand",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "userEmail", "order": "ASCENDING" },
+        { "fieldPath": "createdAt", "order": "DESCENDING" }
+      ]
+    },
+    {
+      "collectionGroup": "handToHand",
+      "queryScope": "COLLECTION",
+      "fields": [{ "fieldPath": "userName", "order": "ASCENDING" }, { "fieldPath": "createdAt", "order": "DESCENDING" }]
+    },
+    {
+      "collectionGroup": "ads",
+      "queryScope": "COLLECTION",
+      "fields": [{ "fieldPath": "isActive", "order": "ASCENDING" }, { "fieldPath": "createdAt", "order": "DESCENDING" }]
+    },
+    {
+      "collectionGroup": "ads",
+      "queryScope": "COLLECTION",
+      "fields": [{ "fieldPath": "userId", "order": "ASCENDING" }, { "fieldPath": "createdAt", "order": "DESCENDING" }]
+    },
+    {
+      "collectionGroup": "ads",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "accountType", "order": "ASCENDING" },
+        { "fieldPath": "isActive", "order": "ASCENDING" },
+        { "fieldPath": "createdAt", "order": "DESCENDING" }
+      ]
+    },
+    {
+      "collectionGroup": "ads",
+      "queryScope": "COLLECTION",
+      "fields": [{ "fieldPath": "isActive", "order": "ASCENDING" }, { "fieldPath": "expiryDate", "order": "ASCENDING" }]
+    },
+    {
+      "collectionGroup": "ads",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "isVerified", "order": "ASCENDING" },
+        { "fieldPath": "createdAt", "order": "DESCENDING" }
+      ]
+    },
+    {
+      "collectionGroup": "ads",
+      "queryScope": "COLLECTION",
+      "fields": [{ "fieldPath": "views", "order": "DESCENDING" }, { "fieldPath": "createdAt", "order": "DESCENDING" }]
+    },
+    {
+      "collectionGroup": "ads",
+      "queryScope": "COLLECTION",
+      "fields": [{ "fieldPath": "price", "order": "ASCENDING" }, { "fieldPath": "currency", "order": "ASCENDING" }]
+    },
+    {
+      "collectionGroup": "ads",
+      "queryScope": "COLLECTION",
+      "fields": [{ "fieldPath": "accountType", "order": "ASCENDING" }, { "fieldPath": "price", "order": "ASCENDING" }]
+    },
+    {
+      "collectionGroup": "ads",
+      "queryScope": "COLLECTION",
+      "fields": [{ "fieldPath": "duration", "order": "ASCENDING" }, { "fieldPath": "createdAt", "order": "DESCENDING" }]
+    },
+    {
+      "collectionGroup": "ads",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "userEmail", "order": "ASCENDING" },
+        { "fieldPath": "createdAt", "order": "DESCENDING" }
+      ]
+    },
+    {
+      "collectionGroup": "ads",
+      "queryScope": "COLLECTION",
+      "fields": [{ "fieldPath": "userName", "order": "ASCENDING" }, { "fieldPath": "createdAt", "order": "DESCENDING" }]
+    },
+    {
+      "collectionGroup": "ads",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "isActive", "order": "ASCENDING" },
+        { "fieldPath": "isVerified", "order": "ASCENDING" },
+        { "fieldPath": "createdAt", "order": "DESCENDING" }
+      ]
+    },
+    {
+      "collectionGroup": "admins",
+      "queryScope": "COLLECTION",
+      "fields": [{ "fieldPath": "email", "order": "ASCENDING" }]
+    },
+    {
+      "collectionGroup": "admins",
+      "queryScope": "COLLECTION",
+      "fields": [{ "fieldPath": "role", "order": "ASCENDING" }, { "fieldPath": "createdAt", "order": "DESCENDING" }]
+    },
+    {
+      "collectionGroup": "admins",
+      "queryScope": "COLLECTION",
+      "fields": [{ "fieldPath": "createdAt", "order": "DESCENDING" }]
+    },
+    {
+      "collectionGroup": "admins",
+      "queryScope": "COLLECTION",
+      "fields": [{ "fieldPath": "name", "order": "ASCENDING" }, { "fieldPath": "createdAt", "order": "DESCENDING" }]
+    }
+  ],
+  "fieldOverrides": []
+}
